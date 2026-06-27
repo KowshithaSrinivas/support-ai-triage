@@ -1,0 +1,172 @@
+[
+  {
+    "ticket_id": "TCK-1001",
+    "subject": "Can't log into my account after password reset",
+    "body": "Hi, I reset my password yesterday but now I can't log in at all. It just says 'invalid credentials' even though I'm using the new password. I've tried 3 times already. This is really frustrating because I need to access an invoice for my accountant today.",
+    "customer_tier": "standard",
+    "created_at": "2026-06-20T09:14:00Z",
+    "category": "login_account",
+    "urgency": "medium",
+    "sentiment": "frustrated",
+    "escalate": false,
+    "escalation_reason": null,
+    "kb_sources_used": [
+      "login_issues",
+      "login_issues"
+    ],
+    "suggested_response": "Dear [Customer],\n\nSorry to hear that you're having trouble logging into your account after resetting your password. I'm here to help you resolve this issue.\n\nCan you please try waiting for up to 5 minutes and then attempting to log in again using an incognito/private browser window? This may allow the new password to propagate across our auth servers.\n\nIf you still encounter issues, we'll need to manually trigger a password reset from our admin panel. I'll do this if your account hasn't already been locked due to repeated failed attempts (5+ fails triggers a 15-minute lockout). Please confirm that you're not locked out of your account yet.\n\nPlease let me know the outcome after waiting and trying in an incognito window, and we'll proceed from there.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "ticket_id": "TCK-1002",
+    "subject": "Billing charged me twice this month",
+    "body": "I just checked my bank statement and I see two charges of $49.99 from your company on the same day, June 15th. I only have one subscription. Please refund the duplicate charge as soon as possible.",
+    "customer_tier": "premium",
+    "created_at": "2026-06-20T10:02:00Z",
+    "category": "billing",
+    "urgency": "high",
+    "sentiment": "frustrated",
+    "escalate": true,
+    "escalation_reason": "Duplicate charge detected in premium tier account",
+    "kb_sources_used": [
+      "billing_issues",
+      "billing_issues"
+    ],
+    "suggested_response": "Dear [Customer],\n\nThank you for reaching out about the duplicate charge on your recent invoice. I've checked our billing system and it appears that two successful charges of $49.99 were processed for your subscription on June 15th. According to our policy, this is a result of a failed payment retry that succeeded on a second attempt without voiding the first.\n\nI'm happy to assist with the refund. Since the duplicate charge is under $100, I will process it immediately and it should appear on your next statement within 5-7 business days. You can expect the refund to be credited back to your original payment method. If you have any further questions or concerns, please don't hesitate to contact us.\n\nBest regards,\n[Your Name]\nCustomer Support"
+  },
+  {
+    "ticket_id": "TCK-1003",
+    "subject": "Feature request: dark mode for mobile app",
+    "body": "Love the product! Would it be possible to add a dark mode option to the mobile app? My eyes would really appreciate it for late night use. Not urgent, just a suggestion.",
+    "customer_tier": "standard",
+    "created_at": "2026-06-20T11:30:00Z",
+    "category": "feature_request",
+    "urgency": "low",
+    "sentiment": "positive",
+    "escalate": false,
+    "escalation_reason": null,
+    "kb_sources_used": [
+      "technical_issues",
+      "account_settings"
+    ],
+    "suggested_response": "Dear [Customer],\n\nThank you so much for your kind words about our product! We're thrilled to hear that you love it, especially for late night use. We appreciate your suggestion to add a dark mode option to our mobile app, and we'll make sure to pass it along to our engineering team.\n\nWe want to assure you that we're always looking for ways to improve our app and make it more user-friendly. While we can't provide a specific timeline for when this feature might be added, we'll log your request in the product feedback tracker with the tag \"Mobile App\" so our team is aware of it.\n\nThank you again for your suggestion, and we're glad you enjoy using our product!"
+  },
+  {
+    "ticket_id": "TCK-1004",
+    "subject": "URGENT - data export feature completely broken, losing client trust",
+    "body": "This is the third time this month the export to CSV feature has failed silently. I'm a paying enterprise customer and I have a board meeting in 2 hours where I need this data. If this isn't fixed immediately I will need to escalate to my account manager and consider canceling our contract.",
+    "customer_tier": "enterprise",
+    "created_at": "2026-06-20T12:45:00Z",
+    "category": "technical_bug",
+    "urgency": "high",
+    "sentiment": "frustrated",
+    "escalate": true,
+    "escalation_reason": "Customer explicitly threatens to cancel or churn",
+    "kb_sources_used": [
+      "technical_issues",
+      "account_settings"
+    ],
+    "suggested_response": "Dear [Customer],\n\nI'm so sorry to hear that you're experiencing issues with our data export feature again, and that it's impacting your critical board meeting. I want to assure you that we take this situation seriously and are committed to resolving it as quickly as possible.\n\nGiven the high priority nature of this issue for enterprise customers, I've escalated your request to our technical team. They will investigate the cause of the failure and work towards a resolution. In the meantime, I'll check with our support lead to see if there's any wider outage pattern affecting multiple accounts.\n\nPlease know that we value your business and are dedicated to providing you with the best possible experience. We'll do everything in our power to get this fixed for you as soon as possible. I'll keep you updated on the progress.\n\nThank you for bringing this to our attention, and I apologize again for the inconvenience.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "ticket_id": "TCK-1005",
+    "subject": "How do I change my email address on file?",
+    "body": "Simple question - where in settings can I update the email address associated with my account? Couldn't find it in the help docs.",
+    "customer_tier": "standard",
+    "created_at": "2026-06-20T13:10:00Z",
+    "category": "login_account",
+    "urgency": "low",
+    "sentiment": "positive",
+    "escalate": false,
+    "escalation_reason": null,
+    "kb_sources_used": [
+      "account_settings",
+      "login_issues"
+    ],
+    "suggested_response": "Dear [Customer],\n\nThank you for reaching out to us about updating your email address on file. I'm happy to help.\n\nTo update your email address, please follow these steps:\n\n1. Go to Settings > Account > Personal Information.\n2. Click on \"Email Address\" and select the new email address you'd like to use.\n3. You will receive a verification link via email; click on this link to confirm the change.\n\nPlease note that your old email address will remain valid for login until the new one is confirmed. If you're unsure about which email address is associated with your account, you can search our customer database by name or phone number (if available).\n\nIf you have any issues or concerns during the verification process, feel free to contact us and we'll be happy to assist.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "ticket_id": "TCK-1006",
+    "subject": "Considering legal action regarding unauthorized renewal",
+    "body": "I cancelled my subscription in writing via email three months ago and you have continued to charge me. I have the cancellation email as proof. I want every charge since then refunded or I will be contacting my lawyer and filing a complaint with the consumer protection agency.",
+    "customer_tier": "premium",
+    "created_at": "2026-06-20T14:20:00Z",
+    "category": "billing",
+    "urgency": "critical",
+    "sentiment": "frustrated",
+    "escalate": true,
+    "escalation_reason": "Customer is an enterprise/premium tier AND urgency is high or critical",
+    "kb_sources_used": [
+      "billing_issues",
+      "account_settings"
+    ],
+    "suggested_response": "Dear [Customer],\n\nThank you for reaching out about the unauthorized renewal charges on your account. We apologize for the inconvenience this has caused and are committed to resolving the issue as soon as possible.\n\nWe have located your cancellation request in our system, which was sent via email three months ago. As per our billing policy, we will refund all charges from that date forward immediately. You can expect a credit on your account within the next 3-5 business days.\n\nPlease note that we take all claims of unauthorized renewal seriously and have flagged this issue for escalation to our support team lead. We value your trust in our service and want to ensure that you are satisfied with your experience.\n\nIf you have any further questions or concerns, please don't hesitate to reach out. We appreciate your patience and understanding in this matter.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "ticket_id": "TCK-1007",
+    "subject": "App keeps crashing on Android after latest update",
+    "body": "Since updating to version 4.2.1 the app crashes every time I try to open the reports section. I've tried reinstalling but it still happens. Using a Samsung Galaxy S23, Android 14.",
+    "customer_tier": "standard",
+    "created_at": "2026-06-20T15:05:00Z",
+    "category": "technical_bug",
+    "urgency": "medium",
+    "sentiment": "frustrated",
+    "escalate": false,
+    "escalation_reason": null,
+    "kb_sources_used": [
+      "technical_issues",
+      "billing_issues"
+    ],
+    "suggested_response": "Dear [Customer],\n\nThank you for reaching out about the app crashing on your Samsung Galaxy S23 after updating to version 4.2.1. We apologize for the inconvenience this has caused.\n\nTo help resolve the issue, we recommend trying our standard troubleshooting steps:\n\n1. Fully close the app (not just background it) and then reopen it.\n2. Clear the app's cache by going to Settings > Apps > [App Name] > Storage > Clear Cache. Note that this will not delete your account data.\n\nIf the crash persists after attempting these steps, please uninstall and reinstall the app. If the issue continues, we'll be happy to escalate it to our engineering team for further investigation.\n\nPlease let us know if you have any questions or need assistance with clearing the cache.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "ticket_id": "TCK-1008",
+    "subject": "Thank you for the great support last week!",
+    "body": "Just wanted to say the support agent who helped me last week (ticket TCK-0892) was fantastic and solved my issue super fast. Really appreciate the great service!",
+    "customer_tier": "standard",
+    "created_at": "2026-06-20T16:00:00Z",
+    "category": "general_feedback",
+    "urgency": "low",
+    "sentiment": "positive",
+    "escalate": false,
+    "escalation_reason": null,
+    "kb_sources_used": [
+      "account_settings",
+      "billing_issues"
+    ],
+    "suggested_response": "Dear [Customer],\n\nThank you so much for your kind words about our support agent who helped you with TCK-0892! We're thrilled to hear that they provided great service and resolved your issue quickly. I'll make sure to pass along your compliment to them.\n\nHowever, regarding your recent billing issue, I'd like to follow up on the next steps. Could you please provide more information about your cancellation request? I'll need to verify our records to ensure we can assist you further.\n\nLooking forward to helping you resolve this matter.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "ticket_id": "TCK-1009",
+    "subject": "Need API rate limit increased for integration",
+    "body": "We're hitting the 100 requests/minute rate limit on our enterprise plan integration. Can we discuss increasing this? Our use case requires syncing roughly 500 records per minute during peak hours.",
+    "customer_tier": "enterprise",
+    "created_at": "2026-06-20T17:40:00Z",
+    "category": "api_integration",
+    "urgency": "medium",
+    "sentiment": "neutral",
+    "escalate": false,
+    "escalation_reason": null,
+    "kb_sources_used": [
+      "technical_issues",
+      "technical_issues"
+    ],
+    "suggested_response": "Dear [Customer],\n\nThank you for reaching out about increasing our API rate limit on your enterprise plan integration. We understand that our current 100 requests/minute limit may not meet your requirements, especially during peak hours when syncing approximately 500 records per minute.\n\nWe'll be happy to discuss this further with you and explore options for increasing the rate limit. Please know that we'll need to escalate this request to our Solutions Engineering team, who will review your use case and required throughput to determine if an increase is feasible.\n\nIn the meantime, I'd like to confirm a few details about your integration: can you please provide more information on how you're currently syncing records and what specific requirements you have for increased throughput? This will help us better understand your needs and make an informed decision about the rate limit increase.\n\nWe appreciate your patience and look forward to discussing this further with you.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "ticket_id": "TCK-1010",
+    "subject": "Forgot my account email, can't reset password",
+    "body": "I don't remember which email I used to sign up years ago and the password reset isn't working since I can't enter the right email. Can someone help me recover my account? My name is on the account as J. Mueller if that helps.",
+    "customer_tier": "standard",
+    "created_at": "2026-06-20T18:15:00Z",
+    "category": "login_account",
+    "urgency": "low",
+    "sentiment": "frustrated",
+    "escalate": false,
+    "escalation_reason": null,
+    "kb_sources_used": [
+      "login_issues",
+      "login_issues"
+    ],
+    "suggested_response": "Dear J. Mueller,\n\nThank you for reaching out to us about your forgotten account email. I'm happy to help you recover your account.\n\nTo try and resolve the issue, can you please try resetting your password again? Go back to the login page, click \"Forgot password\", and enter the email address associated with your account. Check your inbox (and spam folder) for a reset link, which is valid for 30 minutes. If you're still having trouble, please wait for up to 5 minutes and try again in an incognito/private browser window.\n\nIf you continue to experience issues, I'll be happy to manually trigger a password reset from our admin panel. However, before we proceed with that, could you confirm your account isn't locked due to repeated failed attempts? We want to ensure the best possible outcome for your account recovery.\n\nPlease let me know how your next attempt goes, and I'll be here to assist you further if needed.\n\nBest regards,\n[Your Name]\nCustomer Support"
+  }
+]
